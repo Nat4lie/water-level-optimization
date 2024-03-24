@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .button-row {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .button-row button {
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      margin-right: 10px;
+      outline: none;
+      cursor: pointer;
+      opacity: 0.8;
+      transition: opacity 0.3s ease;
+    }
+
+    .button-row button:hover {
+      opacity: 1;
+    }
+    img {
+      width: 60%;
+      height: 60%;
+      display: block; /* Ensure the image behaves like a block element */
+      margin: 0 auto; /* Center the image horizontally */
+    }
+  </style>
+</head>
+<body>
+    <h1>Optimization of Great Lakes Water Level</h1>
+    <div class="button-row">
+    <button onclick="location.href='background.html'">Background</button>
+    <button onclick="location.href='analysis.html'">Analysis</button>
+    <button onclick="location.href='visulization.html'">Visulization</button>
+    <button onclick="location.href='math.html'">Mathematical Support</button>
+  </div>
+  <br><br>
+  <img src="greatlakes.jpg" alt="This is a picture of Great Lakes">
+</body>
+</html>

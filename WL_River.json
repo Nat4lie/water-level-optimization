@@ -1,0 +1,362 @@
+[
+    {
+        "\ufeffYear": "2018",
+        "Month": "1",
+        "St. Mary's River": "2066.563266",
+        "St. Clair River": "5063.051685",
+        "Detroit River": "5371.705283",
+        "Niagara River": "6320",
+        "Ottawa River": "2435",
+        "St. Lawrence River": "6229.705652"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "2",
+        "St. Mary's River": "2097.711794",
+        "St. Clair River": "5510.457818",
+        "Detroit River": "6054.14122",
+        "Niagara River": "6540",
+        "Ottawa River": "2407",
+        "St. Lawrence River": "8211.884723"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "3",
+        "St. Mary's River": "2507.456525",
+        "St. Clair River": "6294.834393",
+        "Detroit River": "6866.834639",
+        "Niagara River": "6900",
+        "Ottawa River": "2144",
+        "St. Lawrence River": "8976.439508"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "4",
+        "St. Mary's River": "2339.820809",
+        "St. Clair River": "6102.279855",
+        "Detroit River": "6730.913789",
+        "Niagara River": "7240",
+        "Ottawa River": "2535",
+        "St. Lawrence River": "8523.370006"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "5",
+        "St. Mary's River": "2368.137653",
+        "St. Clair River": "6124.93333",
+        "Detroit River": "6385.448293",
+        "Niagara River": "7400",
+        "Ottawa River": "4467",
+        "St. Lawrence River": "7730.498377"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "6",
+        "St. Mary's River": "2564.939718",
+        "St. Clair River": "6263.685865",
+        "Detroit River": "6628.973151",
+        "Niagara River": "7270",
+        "Ottawa River": "2435",
+        "St. Lawrence River": "9344.558478"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "7",
+        "St. Mary's River": "2570.319918",
+        "St. Clair River": "6079.62638",
+        "Detroit River": "6325.982921",
+        "Niagara River": "7050",
+        "Ottawa River": "1218",
+        "St. Lawrence River": "9118.023727"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "8",
+        "St. Mary's River": "2715.302159",
+        "St. Clair River": "6096.616486",
+        "Detroit River": "6195.72544",
+        "Niagara River": "6930",
+        "Ottawa River": "1313",
+        "St. Lawrence River": "8636.637381"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "9",
+        "St. Mary's River": "2593.822899",
+        "St. Clair River": "6198.557124",
+        "Detroit River": "6351.468081",
+        "Niagara River": "6660",
+        "Ottawa River": "1809",
+        "St. Lawrence River": "8410.10263"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "10",
+        "St. Mary's River": "2652.155597",
+        "St. Clair River": "6359.963134",
+        "Detroit River": "6609.15136",
+        "Niagara River": "6760",
+        "Ottawa River": "2244",
+        "St. Lawrence River": "7843.765753"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "11",
+        "St. Mary's River": "2745.601182",
+        "St. Clair River": "6292.002709",
+        "Detroit River": "6705.428629",
+        "Niagara River": "6990",
+        "Ottawa River": "2508",
+        "St. Lawrence River": "7815.448909"
+    },
+    {
+        "\ufeffYear": "2018",
+        "Month": "12",
+        "St. Mary's River": "2205.882138",
+        "St. Clair River": "6156.081858",
+        "Detroit River": "6464.735456",
+        "Niagara River": "6920",
+        "Ottawa River": "2251",
+        "St. Lawrence River": "8211.884723"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "1",
+        "St. Mary's River": "2362.757453",
+        "St. Clair River": "5467.982552",
+        "Detroit River": "5906.893632",
+        "Niagara River": "6980",
+        "Ottawa River": "2272",
+        "St. Lawrence River": "8381.785787"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "2",
+        "St. Mary's River": "2534.923864",
+        "St. Clair River": "5445.329077",
+        "Detroit River": "5640.7153",
+        "Niagara River": "6820",
+        "Ottawa River": "2347",
+        "St. Lawrence River": "7475.646783"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "3",
+        "St. Mary's River": "2500.943651",
+        "St. Clair River": "6150.418489",
+        "Detroit River": "6756.398948",
+        "Niagara River": "6810",
+        "Ottawa River": "2184",
+        "St. Lawrence River": "8721.587913"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "4",
+        "St. Mary's River": "2410.046582",
+        "St. Clair River": "6393.943347",
+        "Detroit River": "6866.834639",
+        "Niagara River": "7060",
+        "Ottawa River": "5404",
+        "St. Lawrence River": "8636.637381"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "5",
+        "St. Mary's River": "2353.129726",
+        "St. Clair River": "6538.35925",
+        "Detroit River": "6946.121802",
+        "Niagara River": "7850",
+        "Ottawa River": "7731",
+        "St. Lawrence River": "6088.121433"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "6",
+        "St. Mary's River": "2733.424939",
+        "St. Clair River": "6657.289995",
+        "Detroit River": "6974.438646",
+        "Niagara River": "8070",
+        "Ottawa River": "3964",
+        "St. Lawrence River": "8919.80582"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "7",
+        "St. Mary's River": "2973.268607",
+        "St. Clair River": "6730.913789",
+        "Detroit River": "6988.597068",
+        "Niagara River": "7830",
+        "Ottawa River": "1563",
+        "St. Lawrence River": "10392.2817"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "8",
+        "St. Mary's River": "3012.912188",
+        "St. Clair River": "6844.181164",
+        "Detroit River": "6923.468327",
+        "Niagara River": "7650",
+        "Ottawa River": "828",
+        "St. Lawrence River": "10420.59855"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "9",
+        "St. Mary's River": "2902.476497",
+        "St. Clair River": "6648.794942",
+        "Detroit River": "6832.854427",
+        "Niagara River": "7280",
+        "Ottawa River": "792",
+        "St. Lawrence River": "9995.845887"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "10",
+        "St. Mary's River": "2704.25859",
+        "St. Clair River": "6855.507902",
+        "Detroit River": "7079.210968",
+        "Niagara River": "7150",
+        "Ottawa River": "1054",
+        "St. Lawrence River": "9089.706883"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "11",
+        "St. Mary's River": "2822.05666",
+        "St. Clair River": "6943.290118",
+        "Detroit River": "7220.795188",
+        "Niagara River": "7200",
+        "Ottawa River": "2116",
+        "St. Lawrence River": "8863.172132"
+    },
+    {
+        "\ufeffYear": "2019",
+        "Month": "12",
+        "St. Mary's River": "2614.777363",
+        "St. Clair River": "6878.161377",
+        "Detroit River": "7314.240773",
+        "Niagara River": "7190",
+        "Ottawa River": "1741",
+        "St. Lawrence River": "8863.172132"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "1",
+        "St. Mary's River": "2504.341672",
+        "St. Clair River": "6827.191058",
+        "Detroit River": "7676.696374",
+        "Niagara River": "7530",
+        "Ottawa River": "2202",
+        "St. Lawrence River": "10194.06379"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "2",
+        "St. Mary's River": "2411.179256",
+        "St. Clair River": "6920.636643",
+        "Detroit River": "7520.953733",
+        "Niagara River": "7700",
+        "Ottawa River": "2128",
+        "St. Lawrence River": "10307.33117"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "3",
+        "St. Mary's River": "2374.367359",
+        "St. Clair River": "6866.834639",
+        "Detroit River": "7492.636889",
+        "Niagara River": "7660",
+        "Ottawa River": "2885",
+        "St. Lawrence River": "8778.221601"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "4",
+        "St. Mary's River": "2344.634673",
+        "St. Clair River": "6914.973274",
+        "Detroit River": "7373.706145",
+        "Niagara River": "7920",
+        "Ottawa River": "4761",
+        "St. Lawrence River": "8495.053162"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "5",
+        "St. Mary's River": "2392.20697",
+        "St. Clair River": "7002.75549",
+        "Detroit River": "7399.191304",
+        "Niagara River": "7830",
+        "Ottawa River": "2930",
+        "St. Lawrence River": "9004.756352"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "6",
+        "St. Mary's River": "2423.921836",
+        "St. Clair River": "6917.804958",
+        "Detroit River": "7249.112032",
+        "Niagara River": "7790",
+        "Ottawa River": "2049",
+        "St. Lawrence River": "9542.776385"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "7",
+        "St. Mary's River": "2429.868373",
+        "St. Clair River": "6940.458433",
+        "Detroit River": "7212.300135",
+        "Niagara River": "7700",
+        "Ottawa River": "1325",
+        "St. Lawrence River": "9231.291103"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "8",
+        "St. Mary's River": "2353.129726",
+        "St. Clair River": "7005.587174",
+        "Detroit River": "7198.141713",
+        "Niagara River": "7420",
+        "Ottawa River": "1531",
+        "St. Lawrence River": "8806.538445"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "9",
+        "St. Mary's River": "2492.731766",
+        "St. Clair River": "7011.250543",
+        "Detroit River": "7257.607085",
+        "Niagara River": "7170",
+        "Ottawa River": "1666",
+        "St. Lawrence River": "8438.419474"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "10",
+        "St. Mary's River": "2425.620846",
+        "St. Clair River": "6999.923806",
+        "Detroit River": "7234.95361",
+        "Niagara River": "7020",
+        "Ottawa River": "2182",
+        "St. Lawrence River": "8410.10263"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "11",
+        "St. Mary's River": "2381.163401",
+        "St. Clair River": "6926.300011",
+        "Detroit River": "7181.151606",
+        "Niagara River": "7170",
+        "Ottawa River": "2520",
+        "St. Lawrence River": "8240.201567"
+    },
+    {
+        "\ufeffYear": "2020",
+        "Month": "12",
+        "St. Mary's River": "2193.139558",
+        "St. Clair River": "6866.834639",
+        "Detroit River": "7048.06244",
+        "Niagara River": "7200",
+        "Ottawa River": "2501",
+        "St. Lawrence River": "8070.300504"
+    }
+]

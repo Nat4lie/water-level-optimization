@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Great Lakes</title>
+    <style>
+        img {
+            width: 60%;
+            height: 60%;
+        }
+        table {
+            border-collapse: collapse;
+            width: 80%;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Data Analysis of Great Lakes Water Level</h1>
+    <img src="Cross-sectional view of the Great Lakes.jpg" alt="This is a Cross-sectional view of the Great Lakes">
+    <br><br>
+    <label for="year">Select Year:</label>
+    <input type="range" id="year" name="year" min="1" max="3" oninput="updateYear(this.value)">
+    <span id="yearLabel">2019</span>
+    <br><br>
+
+    <label for="month">Select Month:</label>
+    <input type="range" id="month" name="month" min="1" max="12" value="1" oninput="updateMonth(this.value)">
+    <span id="monthLabel">January</span>
+    <br><br>
+
+    <h1>Water Level Data:</h1>
+    <div id="json-data"></div>
+
+    <script>
+    function updateYear(value) {
+        var yearLabel = document.getElementById('yearLabel');
+        switch (parseInt(value)) {
+            case 1:
+                yearLabel.textContent = '2018';
+                break;
+            case 2:
+                yearLabel.textContent = '2019';
+                break;
+            case 3:
+                yearLabel.textContent = '2020';
+                break;
+        }
+        updateData(yearLabel.textContent, document.getElementById('monthLabel').textContent);
+        updateData1(yearLabel.textContent, document.getElementById('monthLabel').textContent);
+    }
+
+    function updateMonth(value) {
+        var monthLabel = document.getElementById('monthLabel');
+        switch (parseInt(value)) {
+            case 1:
+                monthLabel.textContent = 'January';
+                break;
+            case 2:
+                monthLabel.textContent = 'February';
+                break;
+            case 3:
+                monthLabel.textContent = 'March';
+                break;
+            case 4:
+                monthLabel.textContent = 'April';
+                break;
+            case 5:
+                monthLabel.textContent = 'May';
+                break;
+            case 6:
+                monthLabel.textContent = 'June';
+                break;
+            case 7:
+                monthLabel.textContent = 'July';
+                break;
+            case 8:
+                monthLabel.textContent = 'August';
+                break;
+            case 9:
+                monthLabel.textContent = 'September';
+                break;
+            case 10:
+                monthLabel.textContent = 'October';
+                break;
+            case 11:
+                monthLabel.textContent = 'November';
+                break;
+            case 12:
+                monthLabel.textContent = 'December';
+                break;
+        }
+        updateData(document.getElementById('yearLabel').textContent, monthLabel.textContent);
+        updateData1(document.getElementById('yearLabel').textContent, monthLabel.textContent);
+    }
+
+    function updateData(year, month) {
+        fetch('WL_Lake.json')
+            .then(response => response.json())
+            .then(data => {
+                var filteredData = data.filter(item => item["\ufeffYear"] === year && item["Month"] === month);
+                displayData(filteredData);
+            })
+            .catch(error => {
+                console.error('Error fetching JSON file:', error);
+            });
+    }
+
+    function displayData(data) {
+        var table = '<table><tr><th>Year</th><th>Month</th><th>Lake Superior</th><th>Lake Michigan and Lake Huron</th><th>Lake St. Clair</th><th>Lake Erie</th><th>Lake Ontario</th></tr>';
+        data.forEach(item => {
+            table += '<tr>';
+            table += '<td>' + item["\ufeffYear"] + '</td>';
+            table += '<td>' + item["Month"] + '</td>';
+            table += '<td>' + item["Lake Superior"] + '</td>';
+            table += '<td>' + item["Lake Michigan and Lake Huron"] + '</td>';
+            table += '<td>' + item["Lake St. Clair"] + '</td>';
+            table += '<td>' + item["Lake Erie"] + '</td>';
+            table += '<td>' + item["Lake Ontario"] + '</td>';
+            table += '</tr>';
+        });
+        table += '</table>';
+        document.getElementById('json-data').innerHTML = table;
+    }
+
+    function updateData1(year, month) {
+        fetch('WL_River.json')
+            .then(response => response.json())
+            .then(data1 => {
+                var filteredData = data.filter(item => item["\ufeffYear"] === year && item["Month"] === month);
+                displayData(filteredData);
+            })
+            .catch(error => {
+                console.error('Error fetching JSON file:', error);
+            });
+    }
+
+    function displayData1(data) {
+        var table = '<table><tr><th>Year</th><th>Month</th><th>St. Mary\'s River</th><th>St. Clair River</th><th>Detroit River</th><th>Niagara River</th><th>Ottawa River</th><th>St. Lawrence River</th></tr>';
+        data.forEach(item => {
+            table1 += '<tr>';
+            table1 += '<td>' + item["\ufeffYear"] + '</td>';
+            table1 += '<td>' + item["Month"] + '</td>';
+            table1 += '<td>' + item["St. Mary's River"] + '</td>';
+            table1 += '<td>' + item["St. Clair River"] + '</td>';
+            table1 += '<td>' + item["Detroit River"] + '</td>';
+            table1 += '<td>' + item["Niagara River"] + '</td>';
+            table1 += '<td>' + item["Ottawa River"] + '</td>';
+            table1 += '<td>' + item["St. Lawrence River"] + '</td>';
+            table1 += '</tr>';
+        });
+        table1 += '</table>';
+        document.getElementById('json-data').innerHTML = table1;
+    }
+
+    // Initial data fetch on page load
+    updateData('2019', 'January');
+    
+</script>
+
+</body>
+</html>
